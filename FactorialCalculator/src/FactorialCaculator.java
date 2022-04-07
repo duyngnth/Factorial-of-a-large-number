@@ -157,7 +157,7 @@ public class FactorialCaculator {
         while (true) {
             System.out.print("Enter number: ");
             try {
-                num = Integer.parseInt(sc.nextLine());
+                num = Integer.parseInt(sc.nextLine().trim());
                 if (num < 0)
                     System.err.println("Number can not smaller than 0!");
                 else
